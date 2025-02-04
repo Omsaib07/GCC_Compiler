@@ -1,0 +1,4 @@
+bison -d p148.y
+flex lexer148.l
+gcc p148.tab.c lex.yy.c -o parser
+./parser
